@@ -1,0 +1,38 @@
+{
+  "id": "org.jopotv.addon",
+  "version": "1.0.0",
+  "name": "JopoTv",
+  "description": "Canales de TV en vivo y contenido VOD en Castellano.",
+  "logo": "https://i.postimg.cc/0jZqB5Rj/Jopo-Tv.png",
+  "resources": [
+      "catalog",
+      "stream",
+      "meta"
+  ],
+  "types": [
+      "tv",
+      "movie",
+      "series"
+  ],
+  "catalogs": [
+      {
+          "type": "tv",
+          "id": "tv_tdt",
+          "name": "TDT España",
+          "extra": [ { "name": "search", "isRequired": false } ]
+      },
+      {
+          "type": "tv",
+          "id": "tv_pluto",
+          "name": "Pluto TV ES",
+          "extra": [ { "name": "search", "isRequired": false } ]
+      },
+      {
+          "type": "tv",
+          "id": "tv_iptv_org",
+          "name": "IPTV Org ES",
+          "extra": [ { "name": "search", "isRequired": false } ]
+      }
+  ],
+  "idPrefixes": [ "jopotv:" ]
+}
