@@ -7,6 +7,8 @@ const builder = new addonBuilder(manifest);
 
 // URLs de las listas
 const LISTAS_M3U = {
+    "tv_iptv.org": "https://iptv-org.github.io/iptv/countries/es.m3u",
+    "tv_freetv": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_spain.m3u8",
     "tv_tdtchannels": "https://www.tdtchannels.com/lists/tv.m3u",
     "tv_elcano": "https://ipfs.io/ipns/k2k4r8oqlcjxsritt5mczkcn4mmvcmymbqw7113fz2flkrerfwfps004/data/listas/lista_fuera_iptv.m3u"
 };
